@@ -1,0 +1,36 @@
+{
+    "name": "hyperbusf-driver",
+    "config": {
+        "DQ0": "NC",
+        "DQ1": "NC",
+        "DQ2": "NC",
+        "DQ3": "NC",
+        "DQ4": "NC",
+        "DQ5": "NC",
+        "DQ6": "NC",
+        "DQ7": "NC",
+        "CK":  "NC",
+        "CKN": "NC",
+        "RWDS": "NC",
+        "CSN0": "NC",
+        "CSN1": "NC"
+    },
+    "target_overrides": {
+        "GAP8": {
+            "DQ0": "HYPERBUS_DQ0",
+            "DQ1": "HYPERBUS_DQ1",
+            "DQ2": "HYPERBUS_DQ2",
+            "DQ3": "HYPERBUS_DQ3",
+            "DQ4": "HYPERBUS_DQ4",
+            "DQ5": "HYPERBUS_DQ5",
+            "DQ6": "HYPERBUS_DQ6",
+            "DQ7": "HYPERBUS_DQ7",
+            "CK":  "HYPERBUS_CK",
+            "CKN": "HYPERBUS_CKN",
+            "RWDS": "HYPERBUS_RWDS",
+            "CSN0": "HYPERBUS_CSN0",
+            "CSN1": "HYPERBUS_CSN1"
+        }
+    }
+}
+
