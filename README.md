@@ -13,7 +13,7 @@ https://en.wikipedia.org/wiki/Flash_memory#NOR_memories
     #include "HYPERBUSFBlockDevice.h"
 
     // Create flash device on HYPERBUS bus with GAP8
-    HYPERBUSBlockDevice hyperbusf(HYPERBUS_DQ0, HYPERBUS_DQ1, HYPERBUS_DQ2, HYPERBUS_DQ3,
+    HYPERBUSFBlockDevice hyperbusf(HYPERBUS_DQ0, HYPERBUS_DQ1, HYPERBUS_DQ2, HYPERBUS_DQ3,
                            HYPERBUS_DQ4, HYPERBUS_DQ5, HYPERBUS_DQ6, HYPERBUS_DQ7,
                            HYPERBUS_CLK, HYPERBUS_CLKN, HYPERBUS_RWDS, HYPERBUS_CSN0, HYPERBUS_CSN1);
 
