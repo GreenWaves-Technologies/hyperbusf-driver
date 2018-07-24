@@ -8,7 +8,7 @@ More info on NOR flash can be found on wikipedia:
 https://en.wikipedia.org/wiki/Flash_memory#NOR_memories
 
 ``` cpp
-    // Here's an example using the MX25R HYPERBUS flash device on the K82F
+    // Here's an example using the S71KS512 HYPERBUS flash device on the GAP8
     #include "mbed.h"
     #include "HYPERBUSFBlockDevice.h"
 

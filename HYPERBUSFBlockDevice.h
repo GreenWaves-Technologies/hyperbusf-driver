@@ -25,7 +25,7 @@
  *  such as the MX25R or SST26F016B
  *
  *  @code
- *  // Here's an example using the MX25R HYPERBUS flash device on the K82F
+ *  // Here's an example using the S71KS512 HYPERBUS flash device on the GAP8
  *  #include "mbed.h"
  *  #include "HYPERBUSFBlockDevice.h"
  *
